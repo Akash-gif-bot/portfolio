@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akash R - Portfolio</title>
+    <meta name="description" content="Akash R's Personal Portfolio" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <div class="app">
+      <nav class="navbar">
+        <div class="nav-links">
+          <div class="nav-item" data-section="home">Home</div>
+          <div class="nav-item" data-section="about">About Me</div>
+          <div class="nav-item" data-section="education">Education</div>
+          <div class="nav-item" data-section="skills">Skills</div>
+          <div class="nav-item" data-section="projects">Projects</div>
+          <div class="nav-item" data-section="contact">Contact</div>
+        </div>
+        <div class="theme-toggle"><i class="fas fa-moon"></i></div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Hi, I am   Akash R<span class="highlight">Akash R</span></h1>
+            <div class="typing-container">
+              <span class="static-text">I'm a </span>
+              <span class="dynamic-text">Full stack developer</span>
+              <span class="cursor">|</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section">
+        <div class="section-header"><h2>About Me</h2></div>
+        <div class="about-content">
+          <div class="about-image">
+            <div class="profile-image">
+              <img src="assets/Akash.jpeg" alt="Akash R" />
+            </div>
+          </div>
+          <div class="about-text">
+            <p><strong>Name:</strong> Akash R</p>
+            <p>
+              I'm a dedicated full-stack developer with a passion for creating
+              innovative web solutions. With a strong foundation in both
+              front-end and back-end development, I strive to build applications
+              that not only look great but also provide exceptional user
+              experiences.
+            </p>
+            <p>
+              <strong>Career Aspirations:</strong> My goal is to become a
+              leading expert in web development, specializing in modern
+              technologies and frameworks. I'm particularly interested in cloud
+              computing and AI integration in web applications.
+            </p>
+            <p><strong>Resume:</strong> <a href="assets/" download>Download Resume</a></p>
+
+          </div>
+        </div>
+      </section>
+      <!-- Education Section -->
+<section id="education" class="education-section">
+  <div class="section-header"><h2>Education</h2></div>
+  <div class="education-content">
+    <div class="education-item">
+      <h3>Master of Computer Applications (MCA)</h3>
+      <p>Kumaraguru College of Technology, Coimbatore</p>
+      <p>2024 - 2026</p>
+    </div>
+    <div class="education-item">
+      <h3>Bachelor of commerce</h3>
+      <p>Dr.N.G.P Arts and Science College, Coimbatore</p>
+      <p>70%</p>
+      <p>2020 - 2023</p>
+    </div>
+    <div class="education-item">
+      <h3> Higher Secondary Education</h3>
+      <p>RJ Matriculation higher secondary School</p>
+      <p>73%</p>
+      <p>2019 - 2020</p>
+    </div>
+  </div>
+</section>
+
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section">
+        <div class="section-header"><h2>Skills</h2></div>
+        <div class="skills-container">
+          <div class="skill-card">
+            <div class="skill-front">
+              <i class="fas fa-code"></i>
+              <h3>Programming Languages</h3>
+              
+            </div>
+            <div class="skill-back"><p>Java, Python, C/C++, JavaScript - 80%</p></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-front">
+              <i class="fas fa-globe"></i>
+              <h3>Web Development</h3>
+            </div>
+            <div class="skill-back">
+              <p>HTML5, CSS3, JavaScript, React, Angular, Node.js - 75%</p>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-front">
+              <i class="fas fa-database"></i>
+              <h3>Database</h3>
+            </div>
+            <div class="skill-back"><p>MySQL, MongoDB - 70%</p></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-front">
+              <i class="fas fa-desktop"></i>
+              <h3>Operating Systems</h3>
+            </div>
+            <div class="skill-back"><p>Linux, Windows - 60%</p></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section">
+        <div class="section-header"><h2>Projects</h2></div>
+        <div class="projects-container">
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Student Management System</h3>
+              <p>
+                Full-stack CRUD application built using React, Node.js, Express,
+                and MongoDB.
+              </p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <div class="section-header"><h2>Contact Me</h2></div>
+  <div class="contact-content">
+    <div class="contact-info">
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <p>
+          <a href="mailto:akashrajasekar555@gmail.com">akashrajasekar555@gmail.com</a>
+        </p>
+      </div>
+      <div class="contact-item">
+        <i class="fab fa-github"></i>
+        <p><a href="https://github.com/in/akash" target="_blank">GitHub</a></p>
+      </div>
+      <div class="contact-item">
+        <i class="fab fa-linkedin"></i>
+        <p>
+          <a href="https://www.linkedin.com/in/AkashR12" target="_blank">LinkedIn</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <form  action="https://formspree.io/f/xzzeqwag"
+      method="POST">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+      <!-- Social Links -->
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/AkashR12"
+          target="_blank"
+          class="social-link"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a
+          href="https://github.com/in/akash"
+          target="_blank"
+          class="social-link"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="mailto:akashrajasekar555@gmail.com"
+          class="social-link"
+        >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
